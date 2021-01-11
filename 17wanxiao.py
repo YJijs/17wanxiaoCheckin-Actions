@@ -114,8 +114,8 @@ def receive_check_in(token, custom_id, post_dict):
         "emergencyContactName": post_dict['emergencyContactName'],
         "helpInfo": "",
         "passingCity": "",
-        "longitude": "121.180679",  # 请在此处填写需要打卡位置的longitude
-        "latitude": "31.354673",  # 请在此处填写需要打卡位置的latitude
+        "longitude": "120.909149",  # 请在此处填写需要打卡位置的longitude
+        "latitude": "31.119751",  # 请在此处填写需要打卡位置的latitude
         "token": token,
     }
     headers = {
